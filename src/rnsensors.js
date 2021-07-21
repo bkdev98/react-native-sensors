@@ -7,6 +7,8 @@ const {
   RNSensorsOrientation: OrientNative,
 } = NativeModules;
 
+console.log("I'm just making a changes here");
+
 if (!GyroNative && !AccNative && !MagnNative && !BarNative && !OrientNative) {
   throw new Error("Native modules for sensors not available. Did react-native link run successfully?");
 }
