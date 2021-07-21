@@ -10,7 +10,7 @@
     "format": "prettier --write ./src/*",
     "test": "prettier --check ./src/*",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once --pro"
   },
   "main": "index.js",
   "repository": "git@github.com:bkdev98/react-native-sensors.git",
